@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
-sys.path.append('/home/pi/sketch/shanpu_SLB/Adafruit_Python_GPIO-master')
-sys.path.append('/home/pi/sketch/shanpu_SLB/Python_ST7789-master')
-sys.path.append('/home/pi/sketch/shanpu_SLB/DHT11_Python-master')
+sys.path.append('/home/pi/SDE-DEMO/Adafruit_Python_GPIO-master')
+sys.path.append('/home/pi/SDE-DEMO/Python_ST7789-master')
+sys.path.append('/home/pi/SDE-DEMO/DHT11_Python-master')
 import RPi.GPIO as GPIO
 import Adafruit_GPIO.SPI as SPI
 import dht11
@@ -39,7 +39,7 @@ x_size=[80,40,20,20,20,20,20,40]
 y_size=[80,40,40,40,20,40,40,40]
 
 #setting picture file path
-picPath='/home/pi/sketch/shanpu_SLB/picture/'
+picPath='/home/pi/SDE-DEMO/picture/'
 
 exe="GO"
 
